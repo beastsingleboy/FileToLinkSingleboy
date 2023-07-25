@@ -1,1 +1,1 @@
-web: python3 -m FileToLink
+web: python3 bot.py 
