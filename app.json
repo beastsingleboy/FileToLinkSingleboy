@@ -40,7 +40,9 @@
             "required": false
         }
     },
-    "stack": "heroku-20",
+   "buildpacks": [{
+      "url": "heroku/python"
+    }],
     "formation": {
         "web": {
             "quantity": 1,
